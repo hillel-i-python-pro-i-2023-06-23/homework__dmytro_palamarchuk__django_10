@@ -1,8 +1,8 @@
-# Homework #6. Docker. Packing a simple script.
+# Homework #10. Docker. Packing a simple script.
 
 
 ---
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__dmytro_palamarchuk__N15/actions/workflows/main-workflow.yml/badge.svg)
+![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__dmytro_palamarchuk__django_10/actions/workflows/main-workflow.yml/badge.svg)
 
 ## 🏠 Homework
 

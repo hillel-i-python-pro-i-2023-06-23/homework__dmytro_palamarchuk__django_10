@@ -1,3 +1,4 @@
+"""View for the base application"""
 from django.shortcuts import render
 
 def hello_world(request):
