@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - APP_ENV=production
+    container_name: "django-app"
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    user: "${USER_ID}:${GROUP_ID}"
+    volumes:
+      - ./db:/wd/db:rw
